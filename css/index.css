@@ -241,7 +241,7 @@ header{
 
 .container__about{
     padding: 100px 0px;
-    background: var(--background-color);
+    background: var(--main_color-secundary);
     margin-top: 100px;
 }
 
