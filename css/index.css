@@ -11,7 +11,7 @@
 :root{
     --color_text-primary: #564c3c;
     --color_text-secundary: #927c4e;
-    --color_text-tertiary: #485663;
+    --color_text-tertiary: white;
     --main_color-primary: #776646;
     --main_color-secundary: #353233;
     --background-color: #FAFBFE;
