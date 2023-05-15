@@ -81,6 +81,10 @@ header{
     color: var(--color_text-primary);
 }
 
+.menu #btn_menu{
+    display: none;
+}
+
 .btn__quote{
     display: block;
     padding: 8px 40px;
