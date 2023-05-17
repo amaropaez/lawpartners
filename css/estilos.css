@@ -376,10 +376,37 @@ header{
     margin: 0;
 }
 
+.p {
+    color: #FAFBFE;
+    text-align: center;
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
 form {
     width: 450px;
     margin: auto;
     background: rgba(0,0,0,0.4);
 padding: 10px 20px;
-
+box-sizing: border-box;
+margin-top: 20px;
+border-radius: 20px;
 }
+
+form p {
+    color: #FAFBFE;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
