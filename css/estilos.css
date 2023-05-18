@@ -506,5 +506,19 @@ width: 250px;
     text-align: center;
     color: #FAFBFE;
 }
+.pie-pagina .grupo-2 small {
+font-size: 15px;
+}
 
+@media screen and (max-width:800px){
+    
+    .pie-pagina .grupo-1 {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+
+
+}
 
