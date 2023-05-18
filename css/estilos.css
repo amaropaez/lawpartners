@@ -27,7 +27,7 @@ header{
     margin-top: 0px;
     position: fixed;
     z-index: 1;
-    background-color: #353233;
+background-color: #353233;
 }
 
 .container__menu{
@@ -113,6 +113,7 @@ header{
         padding: 40px;
     }
 
+
 }
 
 @media screen and (max-width: 720px){
@@ -185,10 +186,15 @@ header{
 /*portada de inicio*/
 
 .container__cover{
-    max-width: 1200px;
+width: 100;
     padding-top: 100px;
     padding-bottom: 100px;
-    background: var(--main_color-secundary);
+    background-image: url(../img/law-partners-1_13.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+/*
+    background: var(--main_color-secundary);*/
 }
 
 .cover{
@@ -421,9 +427,18 @@ form input {
 .boton:hover {
     cursor: pointer;
 }
+
+.contenedor {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 /*
 @media (max-width: 480px) {
-    form{
+    main{
         width: 100%;
     }
 }
+
+
