@@ -271,6 +271,51 @@ img {
 
 }
 
+/*****iconos flotantes*****/
+
+
+.container-bar {
+    width: 100%;
+    max-width: 55px;
+    position: fixed;
+    left: 0;
+    top: 25px;
+}
+
+.container-bar a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    transition: all 500ms ease;
+}
+
+.container-bar a:hover {
+    background: #1c1c1c;
+}
+
+.container-bar .fa-brands fa-whatsapp {
+    background: #927c4e;
+    border-radius: 0px 5px 0px 0px;
+}
+
+.container-bar .fa-brands fa-facebook {
+    background: #927c4e;
+    border-radius: 0px 5px 0px 0px;
+}
+
+.container-bar .fa-brands fa-instagram {
+    background: #927c4e;
+    border-radius: 0px 5px 0px 0px;
+}
+.container-bar .fa-brands fa-linkedin-in {
+    background: #927c4e;
+    border-radius: 0px 5px 0px 0px;
+}
+
+
+
 /*Estilos generales CARDS*/
 
 .container__card-primary {
