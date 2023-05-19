@@ -274,12 +274,106 @@ img {
 /*****iconos flotantes*****/
 
 
-.container-bar {
-    width: 100%;
-    max-width: 55px;
+.flotantes {
+
+    height: 300px;
+    width: 300px;
+    margin: 140px 0;
+}
+
+.flotantes ul {
+    margin-left: 0;
+    width: 70%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: pointer;
     position: fixed;
-    left: 0;
-    top: 25px;
+}
+
+.flotantes ul li {
+    position: relative;
+    transform: translateX(-90px);
+    background: white;
+    list-style: none;
+    padding: 10px 0;
+    margin: 10px 0;
+    transition: .5s;
+    width: 150px;
+    border-radius: 0 200px 200px 0;
+}
+
+
+.flotantes ul li:hover:nth-child(1) {
+    background: #927c4e;
+
+}
+
+
+.flotantes ul li:hover:nth-child(2) {
+    background: #927c4e;
+
+}
+
+.flotantes ul li:hover:nth-child(3) {
+    background: #927c4e;
+
+}
+
+.flotantes ul li:hover:nth-child(4) {
+    background: #927c4e;
+
+}
+
+
+
+
+.flotantes ul li:hover {
+
+    transform: translate(0);
+
+
+}
+
+.flotantes ul li a {
+
+    font-weight: bold;
+    color: #FAFBFE;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    padding-left: 10px;
+
+}
+
+.flotantes ul li a i {
+
+    margin-left: 15px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    color: #927c4e;
+    background: white;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+
+
+/*
+.container-bar {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #927c4e;
+    margin-right: 10px;
+    background-color: #31384a;
+    text-align: center;
+    transition: all 300ms ease;
+
 }
 
 .container-bar a {
@@ -295,26 +389,75 @@ img {
     background: #1c1c1c;
 }
 
-.container-bar .fa-brands fa-whatsapp {
+.container-bar .fa-brands {
     background: #927c4e;
     border-radius: 0px 5px 0px 0px;
 }
 
-.container-bar .fa-brands fa-facebook {
+.container-bar #title {
+
+    position: fixed;
     background: #927c4e;
-    border-radius: 0px 5px 0px 0px;
+    padding: 6px;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-top: -4px;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+
 }
 
-.container-bar .fa-brands fa-instagram {
-    background: #927c4e;
-    border-radius: 0px 5px 0px 0px;
-}
-.container-bar .fa-brands fa-linkedin-in {
-    background: #927c4e;
-    border-radius: 0px 5px 0px 0px;
+.container-bar a:hover #title {
+    opacity: 1;
+    visibility: visible;
+    margin-left: 30px;
 }
 
+.container-bar #title:after {
 
+    position: absolute;
+    content: '';
+    border-left: 7px solid transparent;
+    border-right: 6px solid #1c1c1c;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    right: 100%;
+    top: 8px;
+}
+
+#btn-social {
+
+    display: none;
+}
+
+.icon-play-1 {
+    cursor: pointer;
+    transition: all 0.4s;
+    font-size: 12px;
+margin-bottom: 5px;
+display: inline-block;
+transform: rotate(180deg);
+color: #49b0e6;
+
+}
+
+#btn-social:checked ~.icon-play-1 {
+transform: rotate(0deg);
+
+}
+
+.icon-social {
+    transition: all 0.4s;
+transform: translateX(0%);
+box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+
+
+}
+
+#btn-social:checked ~ .icon-social{
+    transform: translateX(-100%);
+}*/
 
 /*Estilos generales CARDS*/
 
