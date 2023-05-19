@@ -505,13 +505,13 @@ form input {
 }
 
 .pie-pagina .grupo-1 .box h2 {
-    color: white;
+    color: #927c4e;
     margin-bottom: 25px;
     font-size: 20px;
 }
 
 .pie-pagina .grupo-1 .box p {
-    color: white;
+    color: #927c4e;
     margin-bottom: 10px;
 
 }
@@ -522,7 +522,7 @@ form input {
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color: white;
+    color: #927c4e;
     margin-right: 10px;
     background-color: #31384a;
     text-align: center;
