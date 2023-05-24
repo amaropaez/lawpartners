@@ -278,22 +278,22 @@ img {
 background-color: #353233;
 border: 1px solid #564c3c;
 position: fixed;
-z-index: 999;    
+z-index: 777;    
 border-radius: 50%;
-bottom: 20px;
-right: 25px;
-padding: 25px;
-transition: ease 0.3s;
+bottom: 10px;
+right: 10px;
+padding: 10px;
+transition: ease 0.2s;
 }
 
 .flotentes:hover {
 transform: scale(1.1);
-transition: 0.3s;
+transition: 0.1s;
     
 }
 
 .boton-flotante {
-width: 80px;
+width: 60px;
 transition: ease 1s;
 
 }
