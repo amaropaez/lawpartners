@@ -275,9 +275,9 @@ img {
 
 
 .flotantes {
-/*background-color: #353233;
+background-color: #353233;
 border: 1px solid #564c3c;
-*/
+
 position: fixed;
 z-index: 777;    
 border-radius: 50%;
@@ -298,7 +298,6 @@ width: 60px;
 transition: ease 1s;
 
 }
-
 
 
 /*
