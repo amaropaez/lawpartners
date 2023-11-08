@@ -461,12 +461,20 @@ box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
 }
 
 /*sobre nosotros 1682023*/
-img {
+
+.header-imgs {
     max-width: auto;
-    border-radius: 25px;
-    
+    height: 250px;
+    width: 350px;
+    border-radius: 50px;
+  
 }
+
+
+
 .header-content {
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -498,8 +506,10 @@ h2 {
 
 
 .btn__texts {
-    position:absolute;
-    display: block;
+    display: flex;
+    align-items: center;
+    /* position:absolute;
+    display: block;*/
     width: 150px;
     margin-top: 50px;
     padding: 10px 10px;
@@ -517,69 +527,10 @@ h2 {
     background: transparent;
     border: 2px solid var(--main_color-primary);
 color: white;
+text-align: center;
 }
 
 
-/*Sobre nosotros imagen*/
-/*
-.sobrenosotros {
-    background-color: #353233;
-    width: 100vw;
-
-    min-width: 320px;
-    margin: auto;
-}
-
-img {
-    width: 100%;
-    border-radius: none;
-    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
-}
-*/
-/* sobre nosotros anterior
-
-.container__about{
-    padding: 100px 0px;
-    background: var(--main_color-secundary);
-    margin-top: 100px;
-}
-
-.about{
-    max-width: 1200px;
-    margin: auto;
-    padding: 0px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.text__about{
-    width: 100%;
-    padding-right: 40px;
-}
-
-.text__about h1{
-    color: var(--color_text-secundary);
-    font-weight: 600;
-}
-
-.text__about p{
-    font-size: var(--text_paragraph);
-    margin-top: 40px;
-    color: var(--color_text-tertiary);
-}
-
-
-.image__about{
-    width: 100%;
-    display: flex;
-}
-
-.image__about img{
-    width: 300px;
-    border-radius: 25px;
-}
-*/
 /*Servicios*/
 
 .card__service img {
