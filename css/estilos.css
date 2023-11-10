@@ -275,27 +275,27 @@ img {
 
 
 .flotantes {
-background-color: #353233;
-border: 1px solid #564c3c;
+    background-color: #353233;
+    border: 1px solid #564c3c;
 
-position: fixed;
-z-index: 777;    
-border-radius: 50%;
-bottom: 10px;
-right: 10px;
-padding: 10px;
-transition: ease 0.2s;
+    position: fixed;
+    z-index: 777;
+    border-radius: 50%;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    transition: ease 0.2s;
 }
 
 .flotentes:hover {
-transform: scale(1.1);
-transition: 0.1s;
-    
+    transform: scale(1.1);
+    transition: 0.1s;
+
 }
 
 .boton-flotante {
-width: 60px;
-transition: ease 1s;
+    width: 60px;
+    transition: ease 1s;
 
 }
 
@@ -466,11 +466,14 @@ box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
     max-width: auto;
     height: 250px;
     width: 350px;
-    border-radius: 50px;
-  
+    margin-bottom: 200px;
+    margin-top: 70px;
 }
 
+img {
 
+    border-radius: 50px;
+}
 
 .header-content {
     justify-content: center;
@@ -479,29 +482,34 @@ box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
     display: flex;
     align-items: center;
     background: var(--main_color-secundary);
+
+
 }
 
 .header-txt {
-flex-basis: 50%;
+    flex-basis: 50%;
 
 }
 
 .header-txt h1 {
-align-items: center;
-  font-size: 45px;
-  line-height: 1;
-  color: var(--color_text-secundary);  
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-margin-bottom: 55px;
-margin: 55px 55px;
+    align-items: center;
+    font-size: 45px;
+    line-height: 1;
+    color: var(--color_text-secundary);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 55px;
+    margin: 55px 55px;
+
 }
 
-h2 {
+.header-txt h2 {
     align-items: center;
     color: white;
     font-size: 17px;
-    margin-bottom: 35px;
+    margin-bottom: 100px;
     margin: 35px 35px;
+    margin: 0 100px;
+
 }
 
 
@@ -510,24 +518,27 @@ h2 {
     align-items: center;
     /* position:absolute;
     display: block;*/
-    width: 150px;
+    width: 110px;
     margin-top: 50px;
-    padding: 10px 10px;
+    /*padding: 3px 3px;*/
     text-align: center;
-    font-weight: 500;
+    font-weight: 300;
     background: var(--main_color-primary);
     color: white;
     border-radius: 55px;
     border: 20px solid transparent;
     cursor: pointer;
     transition: all 300ms;
+    margin-bottom: 55px;
+
 }
 
 .btn__texts:hover {
     background: transparent;
     border: 2px solid var(--main_color-primary);
-color: white;
-text-align: center;
+    color: white;
+    text-align: center;
+    margin-bottom: 55px;
 }
 
 
