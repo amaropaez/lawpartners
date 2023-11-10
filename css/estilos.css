@@ -530,6 +530,7 @@ img {
     cursor: pointer;
     transition: all 300ms;
     margin-bottom: 55px;
+    margin-left: 100px;
 
 }
 
@@ -539,6 +540,7 @@ img {
     color: white;
     text-align: center;
     margin-bottom: 55px;
+    margin-left: 100px;
 }
 
 
